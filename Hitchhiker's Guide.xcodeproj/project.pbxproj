@@ -16,6 +16,7 @@
 		848F4436207FA4E700B3157D /* Hitchhiker_s_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4435207FA4E700B3157D /* Hitchhiker_s_GuideUITests.swift */; };
 		84A7995520921CEE00C38973 /* entries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A7995420921CEE00C38973 /* entries.plist */; };
 		84B424EC2080C8E400C00CDF /* startup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B424EB2080C8E400C00CDF /* startup.mp3 */; };
+		84CD0E4A20AC37E3003B8AAB /* hitchhikersguidewhitess.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		848F4437207FA4E700B3157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A7995420921CEE00C38973 /* entries.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = entries.plist; sourceTree = "<group>"; };
 		84B424EB2080C8E400C00CDF /* startup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startup.mp3; sourceTree = "<group>"; };
+		84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hitchhikersguidewhitess.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				848F4421207FA4E700B3157D /* Info.plist */,
 				84A7995420921CEE00C38973 /* entries.plist */,
 				84B424EB2080C8E400C00CDF /* startup.mp3 */,
+				84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */,
 			);
 			path = "Hitchhiker's Guide";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B424EC2080C8E400C00CDF /* startup.mp3 in Resources */,
+				84CD0E4A20AC37E3003B8AAB /* hitchhikersguidewhitess.png in Resources */,
 				848F4420207FA4E700B3157D /* LaunchScreen.storyboard in Resources */,
 				848F441D207FA4E700B3157D /* Assets.xcassets in Resources */,
 				84A7995520921CEE00C38973 /* entries.plist in Resources */,
