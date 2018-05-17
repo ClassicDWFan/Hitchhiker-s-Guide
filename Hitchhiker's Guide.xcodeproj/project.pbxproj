@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847FCE2E20ADAB50008BD454 /* TowelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE2D20ADAB50008BD454 /* TowelViewController.swift */; };
+		847FCE3020ADAB72008BD454 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE2F20ADAB72008BD454 /* IntroViewController.swift */; };
+		847FCE3220ADAB8C008BD454 /* BeginningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3120ADAB8C008BD454 /* BeginningViewController.swift */; };
+		847FCE3420ADAB96008BD454 /* AlcoholViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3320ADAB96008BD454 /* AlcoholViewController.swift */; };
+		847FCE3620ADABE7008BD454 /* CarelessTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3520ADABE7008BD454 /* CarelessTalkViewController.swift */; };
+		847FCE3820ADABF4008BD454 /* DisasterAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3720ADABF4008BD454 /* DisasterAreaViewController.swift */; };
+		847FCE3A20ADAC01008BD454 /* DolphinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3920ADAC01008BD454 /* DolphinsViewController.swift */; };
+		847FCE3C20ADAC10008BD454 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3B20ADAC10008BD454 /* EarthViewController.swift */; };
+		847FCE3E20ADAC1D008BD454 /* GolgafrinchiansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3D20ADAC1D008BD454 /* GolgafrinchiansViewController.swift */; };
+		847FCE4020ADAC33008BD454 /* MagratheaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE3F20ADAC33008BD454 /* MagratheaViewController.swift */; };
+		847FCE4220ADAC3E008BD454 /* MilliwaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4120ADAC3E008BD454 /* MilliwaysViewController.swift */; };
+		847FCE4420ADAC49008BD454 /* PoetryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4320ADAC49008BD454 /* PoetryViewController.swift */; };
+		847FCE4620ADAC54008BD454 /* SiriusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4520ADAC54008BD454 /* SiriusViewController.swift */; };
+		847FCE4820ADAC5D008BD454 /* TPVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4720ADAC5D008BD454 /* TPVViewController.swift */; };
+		847FCE4A20ADAC6A008BD454 /* VogonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4920ADAC6A008BD454 /* VogonViewController.swift */; };
+		847FCE4C20ADAC75008BD454 /* DoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4B20ADAC75008BD454 /* DoomViewController.swift */; };
+		847FCE5020ADAD42008BD454 /* FortyTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FCE4F20ADAD42008BD454 /* FortyTwoViewController.swift */; };
+		847FCE6220ADB0A1008BD454 /* beginning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5120ADB06E008BD454 /* beginning.mp3 */; };
+		847FCE6320ADB0A1008BD454 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5220ADB074008BD454 /* intro.mp3 */; };
+		847FCE6420ADB0A1008BD454 /* disasterarea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5320ADB077008BD454 /* disasterarea.mp3 */; };
+		847FCE6520ADB0A1008BD454 /* golgafrincham.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5420ADB07A008BD454 /* golgafrincham.mp3 */; };
+		847FCE6620ADB0A1008BD454 /* magrathea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5520ADB07D008BD454 /* magrathea.mp3 */; };
+		847FCE6720ADB0A1008BD454 /* dolphins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5620ADB081008BD454 /* dolphins.mp3 */; };
+		847FCE6820ADB0A1008BD454 /* carelesstalk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5720ADB083008BD454 /* carelesstalk.mp3 */; };
+		847FCE6920ADB0A1008BD454 /* 42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5820ADB085008BD454 /* 42.mp3 */; };
+		847FCE6A20ADB0A1008BD454 /* sirius.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5920ADB087008BD454 /* sirius.mp3 */; };
+		847FCE6B20ADB0A1008BD454 /* milliways.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5A20ADB08A008BD454 /* milliways.mp3 */; };
+		847FCE6C20ADB0A1008BD454 /* towel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5B20ADB090008BD454 /* towel.mp3 */; };
+		847FCE6D20ADB0A1008BD454 /* doom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5C20ADB093008BD454 /* doom.mp3 */; };
+		847FCE6E20ADB0A1008BD454 /* poetry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5D20ADB095008BD454 /* poetry.mp3 */; };
+		847FCE6F20ADB0A1008BD454 /* earth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5E20ADB098008BD454 /* earth.mp3 */; };
+		847FCE7020ADB0A1008BD454 /* vogonconstructorfleets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE5F20ADB09A008BD454 /* vogonconstructorfleets.mp3 */; };
+		847FCE7120ADB0A1008BD454 /* tpv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE6020ADB09D008BD454 /* tpv.mp3 */; };
+		847FCE7220ADB0A1008BD454 /* alcohol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE6120ADB0A0008BD454 /* alcohol.mp3 */; };
+		847FCE7420ADB695008BD454 /* babelfish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847FCE7320ADB694008BD454 /* babelfish.mp3 */; };
 		848F4416207FA4E700B3157D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4415207FA4E700B3157D /* AppDelegate.swift */; };
 		848F4418207FA4E700B3157D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F4417207FA4E700B3157D /* ViewController.swift */; };
 		848F441B207FA4E700B3157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F4419207FA4E700B3157D /* Main.storyboard */; };
@@ -17,6 +52,7 @@
 		84A7995520921CEE00C38973 /* entries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84A7995420921CEE00C38973 /* entries.plist */; };
 		84B424EC2080C8E400C00CDF /* startup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B424EB2080C8E400C00CDF /* startup.mp3 */; };
 		84CD0E4A20AC37E3003B8AAB /* hitchhikersguidewhitess.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */; };
+		84F91CC620AC80F40071FFD7 /* BabelFishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F91CC520AC80F40071FFD7 /* BabelFishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +73,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847FCE2D20ADAB50008BD454 /* TowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelViewController.swift; sourceTree = "<group>"; };
+		847FCE2F20ADAB72008BD454 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		847FCE3120ADAB8C008BD454 /* BeginningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginningViewController.swift; sourceTree = "<group>"; };
+		847FCE3320ADAB96008BD454 /* AlcoholViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholViewController.swift; sourceTree = "<group>"; };
+		847FCE3520ADABE7008BD454 /* CarelessTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarelessTalkViewController.swift; sourceTree = "<group>"; };
+		847FCE3720ADABF4008BD454 /* DisasterAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisasterAreaViewController.swift; sourceTree = "<group>"; };
+		847FCE3920ADAC01008BD454 /* DolphinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolphinsViewController.swift; sourceTree = "<group>"; };
+		847FCE3B20ADAC10008BD454 /* EarthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
+		847FCE3D20ADAC1D008BD454 /* GolgafrinchiansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolgafrinchiansViewController.swift; sourceTree = "<group>"; };
+		847FCE3F20ADAC33008BD454 /* MagratheaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagratheaViewController.swift; sourceTree = "<group>"; };
+		847FCE4120ADAC3E008BD454 /* MilliwaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilliwaysViewController.swift; sourceTree = "<group>"; };
+		847FCE4320ADAC49008BD454 /* PoetryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryViewController.swift; sourceTree = "<group>"; };
+		847FCE4520ADAC54008BD454 /* SiriusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriusViewController.swift; sourceTree = "<group>"; };
+		847FCE4720ADAC5D008BD454 /* TPVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPVViewController.swift; sourceTree = "<group>"; };
+		847FCE4920ADAC6A008BD454 /* VogonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogonViewController.swift; sourceTree = "<group>"; };
+		847FCE4B20ADAC75008BD454 /* DoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoomViewController.swift; sourceTree = "<group>"; };
+		847FCE4F20ADAD42008BD454 /* FortyTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyTwoViewController.swift; sourceTree = "<group>"; };
+		847FCE5120ADB06E008BD454 /* beginning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beginning.mp3; sourceTree = "<group>"; };
+		847FCE5220ADB074008BD454 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		847FCE5320ADB077008BD454 /* disasterarea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = disasterarea.mp3; sourceTree = "<group>"; };
+		847FCE5420ADB07A008BD454 /* golgafrincham.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golgafrincham.mp3; sourceTree = "<group>"; };
+		847FCE5520ADB07D008BD454 /* magrathea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magrathea.mp3; sourceTree = "<group>"; };
+		847FCE5620ADB081008BD454 /* dolphins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dolphins.mp3; sourceTree = "<group>"; };
+		847FCE5720ADB083008BD454 /* carelesstalk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = carelesstalk.mp3; sourceTree = "<group>"; };
+		847FCE5820ADB085008BD454 /* 42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 42.mp3; sourceTree = "<group>"; };
+		847FCE5920ADB087008BD454 /* sirius.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sirius.mp3; sourceTree = "<group>"; };
+		847FCE5A20ADB08A008BD454 /* milliways.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = milliways.mp3; sourceTree = "<group>"; };
+		847FCE5B20ADB090008BD454 /* towel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = towel.mp3; sourceTree = "<group>"; };
+		847FCE5C20ADB093008BD454 /* doom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doom.mp3; sourceTree = "<group>"; };
+		847FCE5D20ADB095008BD454 /* poetry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poetry.mp3; sourceTree = "<group>"; };
+		847FCE5E20ADB098008BD454 /* earth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = earth.mp3; sourceTree = "<group>"; };
+		847FCE5F20ADB09A008BD454 /* vogonconstructorfleets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vogonconstructorfleets.mp3; sourceTree = "<group>"; };
+		847FCE6020ADB09D008BD454 /* tpv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tpv.mp3; sourceTree = "<group>"; };
+		847FCE6120ADB0A0008BD454 /* alcohol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alcohol.mp3; sourceTree = "<group>"; };
+		847FCE7320ADB694008BD454 /* babelfish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = babelfish.mp3; sourceTree = "<group>"; };
 		848F4412207FA4E700B3157D /* Hitchhiker's Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hitchhiker's Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F4415207FA4E700B3157D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848F4417207FA4E700B3157D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +124,7 @@
 		84A7995420921CEE00C38973 /* entries.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = entries.plist; sourceTree = "<group>"; };
 		84B424EB2080C8E400C00CDF /* startup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startup.mp3; sourceTree = "<group>"; };
 		84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hitchhikersguidewhitess.png; sourceTree = "<group>"; };
+		84F91CC520AC80F40071FFD7 /* BabelFishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabelFishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +177,48 @@
 			children = (
 				848F4415207FA4E700B3157D /* AppDelegate.swift */,
 				848F4417207FA4E700B3157D /* ViewController.swift */,
+				84F91CC520AC80F40071FFD7 /* BabelFishViewController.swift */,
 				848F4419207FA4E700B3157D /* Main.storyboard */,
+				847FCE3520ADABE7008BD454 /* CarelessTalkViewController.swift */,
+				847FCE3720ADABF4008BD454 /* DisasterAreaViewController.swift */,
+				847FCE3920ADAC01008BD454 /* DolphinsViewController.swift */,
+				847FCE3B20ADAC10008BD454 /* EarthViewController.swift */,
+				847FCE3D20ADAC1D008BD454 /* GolgafrinchiansViewController.swift */,
+				847FCE3F20ADAC33008BD454 /* MagratheaViewController.swift */,
+				847FCE4120ADAC3E008BD454 /* MilliwaysViewController.swift */,
+				847FCE4320ADAC49008BD454 /* PoetryViewController.swift */,
+				847FCE4520ADAC54008BD454 /* SiriusViewController.swift */,
+				847FCE4720ADAC5D008BD454 /* TPVViewController.swift */,
+				847FCE4920ADAC6A008BD454 /* VogonViewController.swift */,
+				847FCE4B20ADAC75008BD454 /* DoomViewController.swift */,
+				847FCE3120ADAB8C008BD454 /* BeginningViewController.swift */,
+				847FCE3320ADAB96008BD454 /* AlcoholViewController.swift */,
+				847FCE2F20ADAB72008BD454 /* IntroViewController.swift */,
+				847FCE2D20ADAB50008BD454 /* TowelViewController.swift */,
+				847FCE4F20ADAD42008BD454 /* FortyTwoViewController.swift */,
 				848F441C207FA4E700B3157D /* Assets.xcassets */,
 				848F441E207FA4E700B3157D /* LaunchScreen.storyboard */,
 				848F4421207FA4E700B3157D /* Info.plist */,
 				84A7995420921CEE00C38973 /* entries.plist */,
 				84B424EB2080C8E400C00CDF /* startup.mp3 */,
+				847FCE7320ADB694008BD454 /* babelfish.mp3 */,
+				847FCE5820ADB085008BD454 /* 42.mp3 */,
+				847FCE6120ADB0A0008BD454 /* alcohol.mp3 */,
+				847FCE5120ADB06E008BD454 /* beginning.mp3 */,
+				847FCE5720ADB083008BD454 /* carelesstalk.mp3 */,
+				847FCE5320ADB077008BD454 /* disasterarea.mp3 */,
+				847FCE5620ADB081008BD454 /* dolphins.mp3 */,
+				847FCE5C20ADB093008BD454 /* doom.mp3 */,
+				847FCE5E20ADB098008BD454 /* earth.mp3 */,
+				847FCE5420ADB07A008BD454 /* golgafrincham.mp3 */,
+				847FCE5220ADB074008BD454 /* intro.mp3 */,
+				847FCE5520ADB07D008BD454 /* magrathea.mp3 */,
+				847FCE5A20ADB08A008BD454 /* milliways.mp3 */,
+				847FCE5D20ADB095008BD454 /* poetry.mp3 */,
+				847FCE5920ADB087008BD454 /* sirius.mp3 */,
+				847FCE5B20ADB090008BD454 /* towel.mp3 */,
+				847FCE6020ADB09D008BD454 /* tpv.mp3 */,
+				847FCE5F20ADB09A008BD454 /* vogonconstructorfleets.mp3 */,
 				84CD0E4920AC37E2003B8AAB /* hitchhikersguidewhitess.png */,
 			);
 			path = "Hitchhiker's Guide";
@@ -246,12 +354,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847FCE6920ADB0A1008BD454 /* 42.mp3 in Resources */,
+				847FCE6720ADB0A1008BD454 /* dolphins.mp3 in Resources */,
+				847FCE6620ADB0A1008BD454 /* magrathea.mp3 in Resources */,
+				847FCE6B20ADB0A1008BD454 /* milliways.mp3 in Resources */,
 				84B424EC2080C8E400C00CDF /* startup.mp3 in Resources */,
 				84CD0E4A20AC37E3003B8AAB /* hitchhikersguidewhitess.png in Resources */,
 				848F4420207FA4E700B3157D /* LaunchScreen.storyboard in Resources */,
+				847FCE6C20ADB0A1008BD454 /* towel.mp3 in Resources */,
+				847FCE6A20ADB0A1008BD454 /* sirius.mp3 in Resources */,
+				847FCE6220ADB0A1008BD454 /* beginning.mp3 in Resources */,
+				847FCE6E20ADB0A1008BD454 /* poetry.mp3 in Resources */,
 				848F441D207FA4E700B3157D /* Assets.xcassets in Resources */,
+				847FCE6420ADB0A1008BD454 /* disasterarea.mp3 in Resources */,
+				847FCE6F20ADB0A1008BD454 /* earth.mp3 in Resources */,
+				847FCE6520ADB0A1008BD454 /* golgafrincham.mp3 in Resources */,
+				847FCE6820ADB0A1008BD454 /* carelesstalk.mp3 in Resources */,
+				847FCE7020ADB0A1008BD454 /* vogonconstructorfleets.mp3 in Resources */,
 				84A7995520921CEE00C38973 /* entries.plist in Resources */,
+				847FCE7420ADB695008BD454 /* babelfish.mp3 in Resources */,
+				847FCE7220ADB0A1008BD454 /* alcohol.mp3 in Resources */,
+				847FCE7120ADB0A1008BD454 /* tpv.mp3 in Resources */,
 				848F441B207FA4E700B3157D /* Main.storyboard in Resources */,
+				847FCE6D20ADB0A1008BD454 /* doom.mp3 in Resources */,
+				847FCE6320ADB0A1008BD454 /* intro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +402,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847FCE4C20ADAC75008BD454 /* DoomViewController.swift in Sources */,
+				847FCE3620ADABE7008BD454 /* CarelessTalkViewController.swift in Sources */,
+				847FCE3420ADAB96008BD454 /* AlcoholViewController.swift in Sources */,
+				847FCE3020ADAB72008BD454 /* IntroViewController.swift in Sources */,
+				847FCE5020ADAD42008BD454 /* FortyTwoViewController.swift in Sources */,
+				847FCE4620ADAC54008BD454 /* SiriusViewController.swift in Sources */,
+				847FCE3A20ADAC01008BD454 /* DolphinsViewController.swift in Sources */,
+				847FCE3E20ADAC1D008BD454 /* GolgafrinchiansViewController.swift in Sources */,
 				848F4418207FA4E700B3157D /* ViewController.swift in Sources */,
+				847FCE4420ADAC49008BD454 /* PoetryViewController.swift in Sources */,
+				847FCE4220ADAC3E008BD454 /* MilliwaysViewController.swift in Sources */,
+				847FCE3C20ADAC10008BD454 /* EarthViewController.swift in Sources */,
+				847FCE4A20ADAC6A008BD454 /* VogonViewController.swift in Sources */,
+				847FCE4020ADAC33008BD454 /* MagratheaViewController.swift in Sources */,
 				848F4416207FA4E700B3157D /* AppDelegate.swift in Sources */,
+				847FCE2E20ADAB50008BD454 /* TowelViewController.swift in Sources */,
+				847FCE3820ADABF4008BD454 /* DisasterAreaViewController.swift in Sources */,
+				847FCE3220ADAB8C008BD454 /* BeginningViewController.swift in Sources */,
+				84F91CC620AC80F40071FFD7 /* BabelFishViewController.swift in Sources */,
+				847FCE4820ADAC5D008BD454 /* TPVViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Careless Talk View Controller-->
         <scene sceneID="f97-91-qX7">
             <objects>
-                <viewController id="2x8-bz-xK6" sceneMemberID="viewController">
+                <viewController id="2x8-bz-xK6" customClass="CarelessTalkViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m6v-1g-5bZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJc-Kp-niY">
@@ -32,14 +32,14 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyU-Bm-dfD">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">It is of course well known that careless talk costs lives, but the full scale of the problem is not always appreciated.
+                                        <string key="text">It is of course well known that careless talk costs lives, but the full scale of the problem is not always appreciated.
 For instance, when Arthur Dent said "I seem to be having trmendous difficulty with my lifestyle," at that very moment, a freak wormhole opened up in the fabric of the space-time continuum and carried his words far far back in time across almost infinite reaches of space to a distant Galaxy where strange and warlike beings were poised on the brink of frightful interstellar battle.
 
 The two opposing leaders were meeting for the last time when a dreadful silence fell across the conference table and at that very moment the words "I seem to be having tremendous difficulty with my lifestyle" drifted across the conference table. In their tongue, this was the most dreadful insult imaginable, so the two opposing battle fleets settled their few remaining differences in order to launch a joint attack on our own Galaxy - now positively identified as the source of the offending remark.
 
 For thousands of years the mighty ships tore across the empty wastes of space and finally dived screaming on to the first planet they came across - which happened to be the Earth - where due to a terrible miscalculation of scale the entire battle fleet was accidentally swallowed by a small dog.
 
-Those who study the complex interplay of cause and effect in the history of the Universe say that this sort of thing is going on all the time, but that we are powerless to prevent it. "It's just life," they say.</mutableString>
+Those who study the complex interplay of cause and effect in the history of the Universe say that this sort of thing is going on all the time, but that we are powerless to prevent it. "It's just life," they say.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -55,7 +55,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bU7-yb-oup"/>
                     </view>
                 </viewController>
@@ -79,7 +79,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zd-tH-DXS">
                                         <rect key="frame" x="8" y="64" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Alcohol"/>
+                                        <state key="normal" title="Alcohol">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="Lmq-ol-ha7" kind="show" id="zHQ-CE-XAc"/>
                                         </connections>
@@ -87,7 +89,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42q-yJ-HwG">
                                         <rect key="frame" x="8" y="92" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Babel Fish"/>
+                                        <state key="normal" title="Babel Fish">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="ot1-9y-Ph8" kind="show" id="3l6-eh-IcN"/>
                                         </connections>
@@ -95,7 +99,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Irs-DF-jzS">
                                         <rect key="frame" x="8" y="400" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Towel"/>
+                                        <state key="normal" title="Towel">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="hr8-CW-r0r" kind="show" id="YJE-oI-Hfa"/>
                                         </connections>
@@ -103,7 +109,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ai-1V-PM0">
                                         <rect key="frame" x="8" y="428" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Vogon Constructor Fleets"/>
+                                        <state key="normal" title="Vogon Constructor Fleets">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="gzi-1x-YXs" kind="show" id="aab-tf-sdN"/>
                                         </connections>
@@ -111,7 +119,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3o4-wi-vTv">
                                         <rect key="frame" x="8" y="204" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Earth"/>
+                                        <state key="normal" title="Earth">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="s2M-dF-8eJ" kind="show" id="STv-Bh-rfm"/>
                                         </connections>
@@ -119,7 +129,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6T-7y-t1Q">
                                         <rect key="frame" x="8" y="8" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Introduction"/>
+                                        <state key="normal" title="Introduction">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="cyq-do-yVb" kind="show" id="xS1-AY-3Sn"/>
                                         </connections>
@@ -127,7 +139,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDt-R4-d40">
                                         <rect key="frame" x="8" y="176" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Dolphins"/>
+                                        <state key="normal" title="Dolphins">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="DKJ-7i-H2S" kind="show" id="4dR-cw-tQk"/>
                                         </connections>
@@ -135,7 +149,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6t-pI-HbN">
                                         <rect key="frame" x="8" y="148" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Disaster Area"/>
+                                        <state key="normal" title="Disaster Area">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="BhE-gx-DmY" kind="show" id="ktT-sS-mYu"/>
                                         </connections>
@@ -143,7 +159,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNt-C5-KMa">
                                         <rect key="frame" x="8" y="232" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Golgafrinchians"/>
+                                        <state key="normal" title="Golgafrinchians">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="7Dj-9O-alI" kind="show" id="KdI-3K-OW6"/>
                                         </connections>
@@ -151,7 +169,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgQ-Ry-qyI">
                                         <rect key="frame" x="8" y="344" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Sirius Cybernetics Corporation"/>
+                                        <state key="normal" title="Sirius Cybernetics Corporation">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="oUS-tg-eKE" kind="show" id="syX-9a-Spl"/>
                                         </connections>
@@ -159,7 +179,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8x-x8-zV8">
                                         <rect key="frame" x="8" y="456" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="What to do in times of certain doom"/>
+                                        <state key="normal" title="What to do in times of certain doom">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="NF4-Jw-GdF" kind="show" id="nzx-f0-VwX"/>
                                         </connections>
@@ -167,7 +189,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbW-IG-HFd">
                                         <rect key="frame" x="8" y="484" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="42"/>
+                                        <state key="normal" title="42">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="OoN-hS-Em7" kind="show" id="dJu-JC-SIi"/>
                                         </connections>
@@ -175,7 +199,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Q5-su-9o7">
                                         <rect key="frame" x="8" y="372" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Total Perspective Vortex"/>
+                                        <state key="normal" title="Total Perspective Vortex">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="5Df-FP-Sld" kind="show" id="8Oj-kB-IAz"/>
                                         </connections>
@@ -183,7 +209,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6D-zk-3HY">
                                         <rect key="frame" x="8" y="260" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Magrathea"/>
+                                        <state key="normal" title="Magrathea">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="5XE-JX-6Tk" kind="show" id="fdS-q0-DLg"/>
                                         </connections>
@@ -191,7 +219,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZZ-WV-bWK">
                                         <rect key="frame" x="8" y="288" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Milliways"/>
+                                        <state key="normal" title="Milliways">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="Xqr-Ze-lny" kind="show" id="hbt-2O-j4k"/>
                                         </connections>
@@ -199,7 +229,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMy-Fw-Aw0">
                                         <rect key="frame" x="8" y="36" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="In the beginning..."/>
+                                        <state key="normal" title="In the beginning...">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="2nO-My-cOR" kind="show" id="Mil-iv-nuD"/>
                                         </connections>
@@ -207,7 +239,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIy-gb-PiJ">
                                         <rect key="frame" x="8" y="120" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Careless Talk"/>
+                                        <state key="normal" title="Careless Talk">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="2x8-bz-xK6" kind="show" id="221-z7-mko"/>
                                         </connections>
@@ -215,7 +249,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaQ-UX-Fxh">
                                         <rect key="frame" x="8" y="545" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="PLEASE DO NOT PRESS THIS BUTTON"/>
+                                        <state key="normal" title="PLEASE DO NOT PRESS THIS BUTTON">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="pJt-Rg-txX" kind="show" id="wXb-p0-SRV"/>
                                         </connections>
@@ -223,7 +259,9 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb2-1d-c04">
                                         <rect key="frame" x="8" y="316" width="327" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Poetry"/>
+                                        <state key="normal" title="Poetry">
+                                            <color key="titleColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="CL7-tG-1sA" kind="show" id="A5m-te-vEp"/>
                                         </connections>
@@ -231,7 +269,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -239,10 +277,10 @@ Those who study the complex interplay of cause and effect in the history of the 
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--Beginning View Controller-->
         <scene sceneID="GMz-iO-Zcp">
             <objects>
-                <viewController id="2nO-My-cOR" sceneMemberID="viewController">
+                <viewController id="2nO-My-cOR" customClass="BeginningViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PRl-iR-MMw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -251,7 +289,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trx-bx-cPU">
@@ -261,7 +299,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1z-Yz-IEW">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">In the beginning, the universe was created... This has made a lot of people very angry, and has been widely regarded as a bad move. Many races believe that it was created by some sort of god, but the Jatravartid people of Viltvodle Six firmly believe that the universe was, in fact, sneezed out of the nose of a being called The Great Green Arkleseizure. The Jatravartids, who lived in perpetual fear of the time they called The Coming of the Great White Handkerchief, were small, blue creatures with more than fifty arms each, who are therefore unique in being the only race in history to have invented the areosol deodorant, before the wheel.</mutableString>
+                                        <string key="text">In the beginning, the universe was created... This has made a lot of people very angry, and has been widely regarded as a bad move. Many races believe that it was created by some sort of god, but the Jatravartid people of Viltvodle Six firmly believe that the universe was, in fact, sneezed out of the nose of a being called The Great Green Arkleseizure. The Jatravartids, who lived in perpetual fear of the time they called The Coming of the Great White Handkerchief, were small, blue creatures with more than fifty arms each, who are therefore unique in being the only race in history to have invented the areosol deodorant, before the wheel.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -277,7 +315,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="T19-4A-rXS"/>
                     </view>
                 </viewController>
@@ -286,10 +324,10 @@ Those who study the complex interplay of cause and effect in the history of the 
             </objects>
             <point key="canvasLocation" x="-575" y="-557"/>
         </scene>
-        <!--View Controller-->
+        <!--Forty Two View Controller-->
         <scene sceneID="nms-D4-ijA">
             <objects>
-                <viewController id="OoN-hS-Em7" sceneMemberID="viewController">
+                <viewController id="OoN-hS-Em7" customClass="FortyTwoViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S1Y-yb-ueb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,7 +336,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMB-f4-u8X">
@@ -323,7 +361,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Anr-h4-w3r"/>
                     </view>
                 </viewController>
@@ -332,10 +370,10 @@ Those who study the complex interplay of cause and effect in the history of the 
             </objects>
             <point key="canvasLocation" x="103" y="-556"/>
         </scene>
-        <!--View Controller-->
+        <!--Towel View Controller-->
         <scene sceneID="jHZ-fW-vkM">
             <objects>
-                <viewController id="hr8-CW-r0r" sceneMemberID="viewController">
+                <viewController id="hr8-CW-r0r" customClass="TowelViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zA9-Bv-2wS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -366,11 +404,11 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 <rect key="frame" x="16" y="41" width="343" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="edi-PY-m9f"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wqj-VG-omC"/>
@@ -380,10 +418,10 @@ Those who study the complex interplay of cause and effect in the history of the 
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="-555.47226386806597"/>
         </scene>
-        <!--View Controller-->
+        <!--Doom View Controller-->
         <scene sceneID="hWo-Hr-KFr">
             <objects>
-                <viewController id="NF4-Jw-GdF" sceneMemberID="viewController">
+                <viewController id="NF4-Jw-GdF" customClass="DoomViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="70A-YR-4lK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -392,7 +430,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lgg-ke-csI">
@@ -418,7 +456,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CvN-u1-ZAY"/>
                     </view>
                 </viewController>
@@ -427,10 +465,10 @@ Those who study the complex interplay of cause and effect in the history of the 
             </objects>
             <point key="canvasLocation" x="1542" y="-551"/>
         </scene>
-        <!--View Controller-->
+        <!--Milliways View Controller-->
         <scene sceneID="bno-TX-HHQ">
             <objects>
-                <viewController id="Xqr-Ze-lny" sceneMemberID="viewController">
+                <viewController id="Xqr-Ze-lny" customClass="MilliwaysViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WD3-Gg-jWv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -439,7 +477,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hvC-1X-8Hp">
@@ -449,7 +487,7 @@ Those who study the complex interplay of cause and effect in the history of the 
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEK-P5-VXq">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">The Restaurant at the End of the Universe is one of the most extraordinary ventures in the entire history of catering.
+                                        <string key="text">The Restaurant at the End of the Universe is one of the most extraordinary ventures in the entire history of catering.
 
 It is built on the fragmented remains of an eventually ruined planet which is enclosed in a vast time bubble and projected forward in time to the precise moment of the End of the Universe. This is, many would say, impossible.
 
@@ -463,7 +501,7 @@ You can visit it as many times as you like and be sure of never meeting yourself
 
 All you have to do is deposit one penny in a savings account in your own era, and when you arrive at the End of Time the operation of compound interest means that the fabulous cost of your meal has been paid for.
 
-This, many claim, is not merely impossible but clearly insane, which is why the advertising executives of the star system of Bastablon came up with this slogan: "If you've done six impossible things this morning, why not round it off with breakfast at Milliways, the Restaurant at the End of the Universe?"</mutableString>
+This, many claim, is not merely impossible but clearly insane, which is why the advertising executives of the star system of Bastablon came up with this slogan: "If you've done six impossible things this morning, why not round it off with breakfast at Milliways, the Restaurant at the End of the Universe?"</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -479,7 +517,7 @@ This, many claim, is not merely impossible but clearly insane, which is why the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EG8-fi-vIb"/>
                     </view>
                 </viewController>
@@ -491,7 +529,7 @@ This, many claim, is not merely impossible but clearly insane, which is why the 
         <!--View Controller-->
         <scene sceneID="4F8-ha-Kx0">
             <objects>
-                <viewController id="5Df-FP-Sld" sceneMemberID="viewController">
+                <viewController id="5Df-FP-Sld" customClass="TPVViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Yg-2Q-87u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -500,7 +538,7 @@ This, many claim, is not merely impossible but clearly insane, which is why the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrA-ZH-cNh">
@@ -510,13 +548,13 @@ This, many claim, is not merely impossible but clearly insane, which is why the 
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Piy-3P-qVa">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">The Total Perspective Vortex is the most savage psychic torture a sentient being can undergo. When you are put into the Vortex you are given just one momentary glimpse of the entire unimaginable infinity of creation, and somewhere in it a tiny little marker, a microscopic dot on a microscopic dot, which says "You are here". The Total Perspective Vortex derives its picture of the whole Universe on the principle of extrapolated matter analyses.  Since every piece of matter in the Universe is in some way affected by every other piece of matter in the Universe, it is in theory possible to extrapolate the whole of creation – every sun, every planet, their orbits, their composition and their economic and social history from, say, one small piece of fairy cake.
+                                        <string key="text">The Total Perspective Vortex is the most savage psychic torture a sentient being can undergo. When you are put into the Vortex you are given just one momentary glimpse of the entire unimaginable infinity of creation, and somewhere in it a tiny little marker, a microscopic dot on a microscopic dot, which says "You are here". The Total Perspective Vortex derives its picture of the whole Universe on the principle of extrapolated matter analyses.  Since every piece of matter in the Universe is in some way affected by every other piece of matter in the Universe, it is in theory possible to extrapolate the whole of creation – every sun, every planet, their orbits, their composition and their economic and social history from, say, one small piece of fairy cake.
 
 The man who invented the Total Perspective Vortex did so basically in order to annoy his wife. Trin Tragula – for that was his name – was a dreamer, a thinker, a speculative philosopher or, as his wife would have it, an idiot.  She would nag him incessantly about the utterly inordinate amount of time he spent staring out into space, or mulling over the mechanics of safety pins, or doing spectrographic analyses of pieces of fairy cake. 
 
 “Have some sense of proportion!” she would say, sometimes as often as thirty-eight times in a single day. And so he built the Total Perspective Vortex, just to show her. Into one end he plugged the whole of reality as extrapolated from a piece of fairy cake, and into the other end he plugged his wife: so that when he turned it on she haw in one instant the whole infinity of creation and herself in relation to it.
 
-To Trin Tragula’s horror, the shock completely annihilated her brain; but to his satisfaction he realized that he had proved conclusively that if life is going to exist in a Universe of this size, then the one thing it cannot have is a sense of proportion.</mutableString>
+To Trin Tragula’s horror, the shock completely annihilated her brain; but to his satisfaction he realized that he had proved conclusively that if life is going to exist in a Universe of this size, then the one thing it cannot have is a sense of proportion.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -532,7 +570,7 @@ To Trin Tragula’s horror, the shock completely annihilated her brain; but to h
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1Bt-UO-68j"/>
                     </view>
                 </viewController>
@@ -541,10 +579,10 @@ To Trin Tragula’s horror, the shock completely annihilated her brain; but to h
             </objects>
             <point key="canvasLocation" x="98" y="-1228"/>
         </scene>
-        <!--View Controller-->
+        <!--Magrathea View Controller-->
         <scene sceneID="FDE-ML-Qkb">
             <objects>
-                <viewController id="5XE-JX-6Tk" sceneMemberID="viewController">
+                <viewController id="5XE-JX-6Tk" customClass="MagratheaViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Ko-Mr-44u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -553,7 +591,7 @@ To Trin Tragula’s horror, the shock completely annihilated her brain; but to h
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Plk-af-Voh">
@@ -563,7 +601,7 @@ To Trin Tragula’s horror, the shock completely annihilated her brain; but to h
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FD-Vr-5If">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Far back in the mists of ancient time, in the great and glorious days of the former Galactic Empire, life was wild, rich and largely tax free. Mighty starships plied their way between exotic suns, seeking adventure and reward amongst the furthest reaches of Galactic space. In those days spirits were brave, the stakes were high, men were real men, women were real women, and small furry creatures from Alpha Centauri were real small furry creatures from Alpha Centauri. And all dared to brave unknown terrors, to do mighty deeds, to boldly split infinitives that no man had split before- and thus was the Empire forged.
+                                        <string key="text">Far back in the mists of ancient time, in the great and glorious days of the former Galactic Empire, life was wild, rich and largely tax free. Mighty starships plied their way between exotic suns, seeking adventure and reward amongst the furthest reaches of Galactic space. In those days spirits were brave, the stakes were high, men were real men, women were real women, and small furry creatures from Alpha Centauri were real small furry creatures from Alpha Centauri. And all dared to brave unknown terrors, to do mighty deeds, to boldly split infinitives that no man had split before- and thus was the Empire forged.
 
 Many men of course became extremely rich, but this was perfectly natural and nothing to be ashamed of because no one was really poor - at least no one worth speaking of. And for all the richest and most successful merchants life inevitably became rather dull and niggly, and they began to imagine that this was therefore the fault of the worlds they'd settled on- none of them was entirely satisfactory: either the climate wasn't quite right in the later part of the afternoon, or the day was half an hour too long, or the sea was exactly the wrong shade of pink.
 
@@ -571,7 +609,7 @@ And thus were created the conditions for a staggering new form of specialist ind
 
 But so successful was this venture that Magrathea itself soon became the richest planet of all time and the rest of the Galaxy was reduced to abject poverty. And so the system broke down, the Empire collapsed, and a long sullen silence settled over the galaxy.
 
-In these enlightened days of course, no one believes a word of it.</mutableString>
+In these enlightened days of course, no one believes a word of it.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -587,7 +625,7 @@ In these enlightened days of course, no one believes a word of it.</mutableStrin
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Cad-4J-q4h"/>
                     </view>
                 </viewController>
@@ -596,10 +634,10 @@ In these enlightened days of course, no one believes a word of it.</mutableStrin
             </objects>
             <point key="canvasLocation" x="854" y="-1219"/>
         </scene>
-        <!--View Controller-->
+        <!--Alcohol View Controller-->
         <scene sceneID="Sa8-jK-FW1">
             <objects>
-                <viewController id="Lmq-ol-ha7" sceneMemberID="viewController">
+                <viewController id="Lmq-ol-ha7" customClass="AlcoholViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wr7-gX-yQq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -608,7 +646,7 @@ In these enlightened days of course, no one believes a word of it.</mutableStrin
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcJ-Cz-nhv">
@@ -618,9 +656,9 @@ In these enlightened days of course, no one believes a word of it.</mutableStrin
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7M-LW-VxR">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">The Encyclopedia Galactica describes alcohol as a colorless volatile liquid formed by the fermentation of sugars and also notes its intoxicating effect on certain carbon-based life forms.
+                                        <string key="text">The Encyclopedia Galactica describes alcohol as a colorless volatile liquid formed by the fermentation of sugars and also notes its intoxicating effect on certain carbon-based life forms.
 
-The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the best drink in existence is the Pan Galactic Gargle Blaster. The effect of drinking one is like having your brains smashed out by a slice of lemon wrapped round a large gold brick. The Guide can also tell you on which planets the best Pan Galactic Gargle Blasters are mixed, how much you can expect to pay for one, and what voluntary organisations exist to help yourehabilitate after. It was invented by former galactic president and three time worse dressed sentient being in the universe winner, Zaphod Beeblebrox.</mutableString>
+The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the best drink in existence is the Pan Galactic Gargle Blaster. The effect of drinking one is like having your brains smashed out by a slice of lemon wrapped round a large gold brick. The Guide can also tell you on which planets the best Pan Galactic Gargle Blasters are mixed, how much you can expect to pay for one, and what voluntary organisations exist to help yourehabilitate after. It was invented by former galactic president and three time worse dressed sentient being in the universe winner, Zaphod Beeblebrox.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -636,7 +674,7 @@ The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the bes
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fCo-nC-Nsc"/>
                     </view>
                 </viewController>
@@ -645,10 +683,10 @@ The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the bes
             </objects>
             <point key="canvasLocation" x="1551" y="-1218"/>
         </scene>
-        <!--View Controller-->
+        <!--Sirius View Controller-->
         <scene sceneID="e7C-h5-4gU">
             <objects>
-                <viewController id="oUS-tg-eKE" sceneMemberID="viewController">
+                <viewController id="oUS-tg-eKE" customClass="SiriusViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SSG-93-Us2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -657,7 +695,7 @@ The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the bes
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qkj-De-0dT">
@@ -667,7 +705,7 @@ The Hitchhiker's Guide To The Galaxy also mentions alcohol. It says that the bes
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OA7-bn-35u">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">A bunch of mindless jerks who'll be the first against the wall when the revolution comes.* (Specifically, the marketing division.)
+                                        <string key="text">A bunch of mindless jerks who'll be the first against the wall when the revolution comes.* (Specifically, the marketing division.)
 
 Curiously enough, an edition of the Encyclopedia Galactica that had the good fortune to fall through a time warp from a thousand years in the future defined the marketing division of the Sirius Cybernetics Corporation as "a bunch of mindless jerks who were the first against the wall when the revolution came."
 
@@ -676,7 +714,7 @@ The motto of the Sirius Cybernetics Corporation is "Share and Enjoy"
 It is very easy to be blinded to the essential uselessness of Sirius Cybernetics Corporation broducts by the sense of achievement you get from getting them to work at all.
 In other words - and this is the rock solid principle on which the whole of the Corporation's Galaxy-wide success is founded - their fundamental design flaws are completely hidden by their superficial design flaws.
 
-* FOOTNOTE: The editors would welcome applications from anyone interested in taking over the post of robotics correspondent.</mutableString>
+* FOOTNOTE: The editors would welcome applications from anyone interested in taking over the post of robotics correspondent.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -692,7 +730,7 @@ In other words - and this is the rock solid principle on which the whole of the 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ENb-pC-UxW"/>
                     </view>
                 </viewController>
@@ -701,10 +739,10 @@ In other words - and this is the rock solid principle on which the whole of the 
             </objects>
             <point key="canvasLocation" x="2212" y="-1214"/>
         </scene>
-        <!--View Controller-->
+        <!--Golgafrinchians View Controller-->
         <scene sceneID="uRu-Kj-pfd">
             <objects>
-                <viewController id="7Dj-9O-alI" sceneMemberID="viewController">
+                <viewController id="7Dj-9O-alI" customClass="GolgafrinchiansViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3uh-YM-Kgg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -713,7 +751,7 @@ In other words - and this is the rock solid principle on which the whole of the 
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3jv-nc-x5C">
@@ -723,7 +761,7 @@ In other words - and this is the rock solid principle on which the whole of the 
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ked-yL-WYM">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">It is a planet with an ancient and mysterious history, where the most mysterious figures of all were without doubt those of the Great Circling Poets of Arium. These Circling Poets used to live in remote mountain passes where they would lie in wait for small bands of unwary travellers, circle round them, and throw rocks at them.
+                                        <string key="text">It is a planet with an ancient and mysterious history, where the most mysterious figures of all were without doubt those of the Great Circling Poets of Arium. These Circling Poets used to live in remote mountain passes where they would lie in wait for small bands of unwary travellers, circle round them, and throw rocks at them.
 
 And when the travellers cried out, saying why didn't they go away and get on with writing some poems instead of pestering people with all this rock-throwing business, they would suddenly stop, and then break into one of the seven hundred and ninety-four great Song Cycles of Vassilian. These songs were all of extraordinary beauty, and even more extraordinary length, and all fell into exactly the same pattern.
 
@@ -731,7 +769,7 @@ The first part of each song would tell how there once went forth from the City o
 
 The second, and much longer, part of each song would then tell of all their bickerings about which one of them is going to have to walk back.
 
-All this lay in the planet's remote past. It was, however, a descendant of one of these eccentric poets who invented the spurious tales of impending doom which enabled the people of Golgafrincham to rid themselves of an entire useless third of their population. The other two-thirds stayed firmly at home and lived full, rich and happy lives until they were all suddenly wiped out by a virulent disease contracted from a dirty telephone.</mutableString>
+All this lay in the planet's remote past. It was, however, a descendant of one of these eccentric poets who invented the spurious tales of impending doom which enabled the people of Golgafrincham to rid themselves of an entire useless third of their population. The other two-thirds stayed firmly at home and lived full, rich and happy lives until they were all suddenly wiped out by a virulent disease contracted from a dirty telephone.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -747,7 +785,7 @@ All this lay in the planet's remote past. It was, however, a descendant of one o
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BWS-t0-41v"/>
                     </view>
                 </viewController>
@@ -756,10 +794,10 @@ All this lay in the planet's remote past. It was, however, a descendant of one o
             </objects>
             <point key="canvasLocation" x="2209" y="-552"/>
         </scene>
-        <!--View Controller-->
+        <!--Babel Fish View Controller-->
         <scene sceneID="5m2-l7-29V">
             <objects>
-                <viewController id="ot1-9y-Ph8" sceneMemberID="viewController">
+                <viewController id="ot1-9y-Ph8" customClass="BabelFishViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cul-b1-YW5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -768,7 +806,7 @@ All this lay in the planet's remote past. It was, however, a descendant of one o
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-qU-RHn">
@@ -798,7 +836,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4Gh-q7-0Y5"/>
                     </view>
                     <navigationItem key="navigationItem" id="MCC-rQ-OMh"/>
@@ -825,7 +863,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ycS-Mu-had"/>
                     </view>
                 </viewController>
@@ -853,7 +891,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 <rect key="frame" x="16" y="20" width="343" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="0.01164490638" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvD-ip-l0q">
@@ -866,7 +904,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ur6-Cg-v5f"/>
                     </view>
                 </viewController>
@@ -875,10 +913,10 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
             </objects>
             <point key="canvasLocation" x="-596" y="778.56071964017997"/>
         </scene>
-        <!--View Controller-->
+        <!--Earth View Controller-->
         <scene sceneID="U1Z-Ux-2Py">
             <objects>
-                <viewController id="s2M-dF-8eJ" sceneMemberID="viewController">
+                <viewController id="s2M-dF-8eJ" customClass="EarthViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lg4-fU-Ar8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -887,7 +925,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAW-jT-Wc0">
@@ -912,7 +950,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nvK-DS-xuh"/>
                     </view>
                 </viewController>
@@ -921,10 +959,10 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
             </objects>
             <point key="canvasLocation" x="125.59999999999999" y="781.25937031484261"/>
         </scene>
-        <!--View Controller-->
+        <!--Intro View Controller-->
         <scene sceneID="4il-gf-yiK">
             <objects>
-                <viewController id="cyq-do-yVb" sceneMemberID="viewController">
+                <viewController id="cyq-do-yVb" customClass="IntroViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RdI-q2-iId">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -933,7 +971,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8wl-AK-3HP">
@@ -943,7 +981,7 @@ Meanwhile, the poor Babel fish, by effectively removing all barriers to communic
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za2-Hv-zKO">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Space is big. Really big. You just won't believe how vastly hugely mindbogglingly big it is. I mean you may think it's a long way down the road to the chemist, but that's just peanuts to space.
+                                        <string key="text">Space is big. Really big. You just won't believe how vastly hugely mindbogglingly big it is. I mean you may think it's a long way down the road to the chemist, but that's just peanuts to space.
 
 If you hold a lungful of air you can survive in the total vacuum of space for about thirty seconds. However, what with space being the mindboggling size it is, the chances of getting picked up by another ship within those thirty seconds are two to the power of two hundred and seventy-six thousand seven hundred and nine to one against. 
 
@@ -956,7 +994,7 @@ Not only is it a wholly remarkable book, it is also a highly successful one-more
 
 In many of the more relaxed civilizations on the Outer Eastern Rim of the Galaxy, the Hitchhiker's Guide has already supplanted the great Encyclopedia Galactica as the standard repository of all knowledge and wisdom, for though it has many omissions and contains much that is apocryphal, or at least wildly inaccurate, it scores over the older, more pedestrian work in two important respects:
 
-First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscribed in large friendly letters on its cover.</mutableString>
+First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscribed in large friendly letters on its cover.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -972,7 +1010,7 @@ First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscrib
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WRG-VE-gmp"/>
                     </view>
                 </viewController>
@@ -981,10 +1019,10 @@ First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscrib
             </objects>
             <point key="canvasLocation" x="841" y="782"/>
         </scene>
-        <!--View Controller-->
+        <!--Dolphins View Controller-->
         <scene sceneID="Frl-eu-v7n">
             <objects>
-                <viewController id="DKJ-7i-H2S" sceneMemberID="viewController">
+                <viewController id="DKJ-7i-H2S" customClass="DolphinsViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s2e-FH-5e8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -993,7 +1031,7 @@ First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscrib
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6i-7r-n6C">
@@ -1003,11 +1041,11 @@ First, it is slightly cheaper; and secondly it has the words DON'T PANIC inscrib
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf6-OX-VLq">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">It is an important and popular fact that things are not always what they seem. For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much - the wheel, New York, wars and so on - whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man - for precisely the same reasons.
+                                        <string key="text">It is an important and popular fact that things are not always what they seem. For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much - the wheel, New York, wars and so on - whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man - for precisely the same reasons.
 
 Curiously enough, the dolphins had long known of the impending destruction of the planet Earth and had made many attempts to alert mankind of the danger; but most of their communications were misinterpreted as amusing attempts to punch footballs or whistle for tidbits, so they eventually gave up and left the Earth by their own means shortly before the Vogons arrived.
 
-The last ever dolphin message was misinterpreted as a surprisingly sophisticated attempt to do a double-backwards somersault through a hoop whilst whistling the "Star Spangled Banner", but in fact the message was this: So long and thanks for all the fish.</mutableString>
+The last ever dolphin message was misinterpreted as a surprisingly sophisticated attempt to do a double-backwards somersault through a hoop whilst whistling the "Star Spangled Banner", but in fact the message was this: So long and thanks for all the fish.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1023,7 +1061,7 @@ The last ever dolphin message was misinterpreted as a surprisingly sophisticated
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DHz-CV-ERW"/>
                     </view>
                 </viewController>
@@ -1032,10 +1070,10 @@ The last ever dolphin message was misinterpreted as a surprisingly sophisticated
             </objects>
             <point key="canvasLocation" x="1537" y="782"/>
         </scene>
-        <!--View Controller-->
+        <!--Poetry View Controller-->
         <scene sceneID="bal-Y0-U1O">
             <objects>
-                <viewController id="CL7-tG-1sA" sceneMemberID="viewController">
+                <viewController id="CL7-tG-1sA" customClass="PoetryViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8CT-Sl-s6w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1044,7 +1082,7 @@ The last ever dolphin message was misinterpreted as a surprisingly sophisticated
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CJj-sf-jA2">
@@ -1054,12 +1092,12 @@ The last ever dolphin message was misinterpreted as a surprisingly sophisticated
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnW-gA-PYP">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Vogon poetry is of course the third worst in the Universe.
+                                        <string key="text">Vogon poetry is of course the third worst in the Universe.
 
 The second worst is that of the Azgoths of Kria. During a recitation by their Poet Master Grunthos the Flatulent of his poem "Ode To A Small Lump of Green Putty I Found In My Armpit One Midsummer Morning" four of his audience died of internal haemorrhaging, and the President of the Mid-Galactic Arts Nobbling Council survived by gnawing one of his own legs off. Grunthos is reported to have been "disappointed" by the poem's reception, and was about to embark on a reading of his twelve-book epic entitled My Favourite Bathtime Gurgles when his own major intestine, in a desperate attempt to save life and civilization, leapt straight up through his neck and throttled his brain.
 
 The very worst poetry of all perished along with its creator, Paula Nancy Millstone Jennings of
-Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry is mild by comparison.</mutableString>
+Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry is mild by comparison.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1075,7 +1113,7 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AFd-U3-zT4"/>
                     </view>
                 </viewController>
@@ -1084,10 +1122,10 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
             </objects>
             <point key="canvasLocation" x="2206" y="782"/>
         </scene>
-        <!--View Controller-->
+        <!--Vogon View Controller-->
         <scene sceneID="ngZ-9V-Gbg">
             <objects>
-                <viewController id="gzi-1x-YXs" sceneMemberID="viewController">
+                <viewController id="gzi-1x-YXs" customClass="VogonViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cu1-AV-NyM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1096,7 +1134,7 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXJ-oy-A0A">
@@ -1122,7 +1160,7 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LVZ-sx-QY1"/>
                     </view>
                 </viewController>
@@ -1131,10 +1169,10 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
             </objects>
             <point key="canvasLocation" x="1535" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Disaster Area View Controller-->
         <scene sceneID="0IN-sT-KoV">
             <objects>
-                <viewController id="BhE-gx-DmY" sceneMemberID="viewController">
+                <viewController id="BhE-gx-DmY" customClass="DisasterAreaViewController" customModule="Hitchhiker_s_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JI6-zw-G62">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1143,7 +1181,7 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
                                 <rect key="frame" x="16" y="20" width="343" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0df-Yz-nEe">
@@ -1153,13 +1191,13 @@ Greenbridge, Essex, England in the destruction of the planet Earth. Vogon poetry
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm4-DT-DTh">
                                         <rect key="frame" x="4" y="0.0" width="335" height="574"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">A plutonium rock band from the Gagrakacka Mind Zones, they are generally held to be not only the loudest rock band in the Galaxy, but in fact the loudest noise of any kind at all. Regular concert goers judge that the best sound balance is usually to be heard from within large concrete bunkers some thirty-seven miles from the stage, while the musicians themselves play their instruments by remote control from within a heavily insulated spaceship which stays in orbit around the planet – or more frequently around a completely different planet.
+                                        <string key="text">A plutonium rock band from the Gagrakacka Mind Zones, they are generally held to be not only the loudest rock band in the Galaxy, but in fact the loudest noise of any kind at all. Regular concert goers judge that the best sound balance is usually to be heard from within large concrete bunkers some thirty-seven miles from the stage, while the musicians themselves play their instruments by remote control from within a heavily insulated spaceship which stays in orbit around the planet – or more frequently around a completely different planet.
 
 Their songs are on the whole very simple and mostly follow the familiar theme of boy-being meets girl-being beneath a silvery moon, which then explodes for no adequately explored reason.
 
 Many worlds have now banned their act altogether, sometimes for artistic reasons, but most commonly because the band’s public address system contravenes local strategic arms limitations treaties.
 
-This has not, however, stopped their earnings from pushing back the boundaries of pure hypermathematics, and their chief research accountant has recently been appointed Professor of Neomathematics at the University of Maximegalon, in recognition of both his General and Specific Theories of Disaster Area Tax Returns, in which he proves that the whole fabric of the space-time continuum is not merely curved, it is in fact totally bent.</mutableString>
+This has not, however, stopped their earnings from pushing back the boundaries of pure hypermathematics, and their chief research accountant has recently been appointed Professor of Neomathematics at the University of Maximegalon, in recognition of both his General and Specific Theories of Disaster Area Tax Returns, in which he proves that the whole fabric of the space-time continuum is not merely curved, it is in fact totally bent.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1175,7 +1213,7 @@ This has not, however, stopped their earnings from pushing back the boundaries o
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QSV-rZ-DI4"/>
                     </view>
                 </viewController>
